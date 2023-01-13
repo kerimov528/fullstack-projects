@@ -1,9 +1,9 @@
-import responseHandler from '../handlers/response_handler'
-import tmdbApi from '../tmdb/tmdb_api'
-import userModel from '../models/user_model'
-import favouriteModel from '../models/favourite_model'
-import reviewModel from '../models/review_mode'
-import tokenMiddleware from '../middleware/token_middleware'
+import responseHandler from '../handlers/response_handler.js'
+import tmdbApi from '../tmdb/tmdb_api.js'
+import userModel from '../models/user_model.js'
+import favouriteModel from '../models/favourite_model.js'
+import reviewModel from '../models/review_mode.js'
+import tokenMiddleware from '../middleware/token_middleware.js'
 
 const getList = async (req, res) => {
     try {
@@ -25,7 +25,7 @@ const getGenres = async (req, res) => {
         return responseHandler.ok(res, response)
 
     } catch {
-
+        responseHandler.errors(res)
     }
 }
 

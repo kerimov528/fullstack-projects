@@ -30,3 +30,37 @@ Demo
 03:46:38 - Header
 04:03:47 - User Dropdown Menu
 04:16:29 - End Part 1
+
+
+--------------------------------------------------------------------------
+
+00:00 - Demo
+04:42 - User Dropdown Menu
+08:29 - Sidebar
+25:53 - Sign In Sign Up Modal
+35:39 - Sign In Form
+56:05 - Sign Up Form
+01:00:08 - Fix Toastify CSS
+01:01:37 - Get User with JWT
+01:08:30 - Circular Rate
+01:12:05 - Hero Slide
+01:51:02 - Movie Slide
+02:03:24 - Movie Slide Item
+02:30:39 - Image Header
+02:34:29 - Media Detail
+03:12:16 - Add Movie to Favorite
+03:18:21 - Remove Favorite
+03:21:55 - Movie Videos Slide
+03:37:25 - Movie Backdrops Slide
+03:43:21 - Movie Poster Slide
+03:46:00 - Movie Recommend Slide
+03:51:44 - Movie Review
+04:30:13 - Media List Page
+05:00:34 - Fix UseEffect Error
+05:02:48 - Fix Meida query with Page
+05:04:32 - Media Search
+05:22:13 - People Detail Page
+05:44:04 - User Favorite Page
+05:58:39 - User Review Page
+06:18:10 - Update Password
+06:31:19 - End

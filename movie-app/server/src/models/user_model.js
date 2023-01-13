@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import crypto from 'crypto'
-import modelOptions from './model_options'
+import modelOptions from './model_options.js'
 
 const userShcema = new mongoose.Schema({
     username: {
