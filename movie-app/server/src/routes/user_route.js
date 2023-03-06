@@ -52,7 +52,6 @@ router.post('/favourites', tokenMiddleware.auth,
     body('mediaRate').exists().withMessage('Media Rate is required'),
     requestHandler.validate,
     favouriteController.addFavourite
-
 )
 
 router.delete('/favourites/:favouriteId',

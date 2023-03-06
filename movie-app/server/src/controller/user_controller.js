@@ -13,7 +13,7 @@ const signup = async (req, res) => {
         const user = new userModel()
 
         user.username = username,
-            user.displayName = displayName
+        user.displayName = displayName
         user.setPassword(password)
 
         await user.save()
