@@ -50,7 +50,7 @@ const Customers = () => {
 	];
 	return (
 		<Box m='1.5rem 2rem'>
-			<Header title='Customers' subtitle='List of Customer' />
+			<Header title='CUSTOMERS' subtitle='List of Customer' />
 			<Box
 				my='40px'
 				height='67vh'
@@ -84,7 +84,6 @@ const Customers = () => {
 					getRowId={(row) => row._id}
 					rows={data || []}
 					columns={columns}
-					// key={(row) => row._id}
 				/>
 			</Box>
 		</Box>
