@@ -7,7 +7,7 @@ import { geoData } from "feature/geoData";
 
 const Geography = () => {
 	const theme = useTheme();
-	const { data, isLoading } = useGetGeographyQuery();
+	const { data } = useGetGeographyQuery();
 
 	return (
 		<Box m='1.5rem 2rem'>
