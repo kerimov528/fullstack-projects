@@ -1,13 +1,12 @@
 import React, { useMemo, useState } from "react";
 import Header from "components/Header";
 import { Box, useTheme } from "@mui/material";
-import OverviewChart from "components/OverviewChart";
 import { useGetSalesQuery } from "feature/api";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { ResponsiveLine } from "@nivo/line";
 
-const Daily = ({ isDashboard = false }) => {
+const Daily = () => {
 	const theme = useTheme();
 	const [startDate, setStartDate] = useState(new Date("2021-02-01"));
 	const [endDate, setEndDate] = useState(new Date("2021-03-01"));
@@ -18,10 +17,6 @@ const Daily = ({ isDashboard = false }) => {
 			return [];
 		}
 		const { dailyData } = data[0];
-		console.log(
-			"🚀 ~ file: index.jsx:21 ~ const[formattedData]=useMemo ~ dailyData:",
-			dailyData
-		);
 
 		const totalSalesLine = {
 			id: "totalSales",
@@ -133,7 +128,6 @@ const Daily = ({ isDashboard = false }) => {
 						}}
 						yFormat=' >-.2f'
 						curve='catmullRom'
-						enableArea={isDashboard}
 						axisTop={null}
 						axisRight={null}
 						axisBottom={{
