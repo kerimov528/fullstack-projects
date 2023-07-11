@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, useTheme } from "@mui/material";
-import { useGetAdminsQuery } from "state/api";
+import { useGetAdminsQuery } from "feature/api";
 import { DataGrid } from "@mui/x-data-grid";
 import Header from "components/Header";
 import CustomColumnMenu from "components/DataGridCustomColumnMenu";
@@ -51,7 +51,7 @@ const Admin = () => {
 	];
 
 	return (
-		<Box m='1.5rem 2rem'>
+		<Box m='1.5rem 2.5rem'>
 			<Header title='ADMINS' subtitle='Managing admins and list of admins' />
 			<Box
 				mt='40px'

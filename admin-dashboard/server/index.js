@@ -55,4 +55,5 @@ mongoose.connect(process.env.MONGO__URL, {
     // ProductStat.insertMany(dataProductStat)
     // Transaction.insertMany(dataTransaction)
     // OverallStat.insertMany(dataOverallStat)
+    // AffiliateStat.insertMany(dataAffiliateStat);
 }).catch((err) => console.log(`${err} didn't connect...`)) 
